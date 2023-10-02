@@ -32,7 +32,7 @@ export default function Navbar() {
                     </svg>
                 </div>
                 {showNav && (
-                <div className='text-xs flex justify-evenly items-center w-[100%]'>
+                <div className='text-xs flex justify-evenly items-center w-[100%] md:hidden'>
                     <Anchor to={'/'} className='hover:border-b-2 hover:border-black  xxsm:border-b-2 xxsm:border-black '>
                         HOME
                     </Anchor>
