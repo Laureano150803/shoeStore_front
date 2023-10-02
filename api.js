@@ -1,7 +1,7 @@
-let apiUrl = 'http://localhost:8000/';
+let apiUrl = 'https://shoe-store-cezh.onrender.com';
 
-if (import.meta.env.VITE_API === 'production') {
+/* if (import.meta.env.VITE_API === 'production') {
     apiUrl = import.meta.env.VITE_API;
-}
+} */
 
 export default apiUrl;
